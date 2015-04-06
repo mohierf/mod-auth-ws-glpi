@@ -1,7 +1,7 @@
 {
   "name": "auth-ws-glpi",
   "types": ["module"],
-  "version": "0.1",
+  "version": "1.0.0",
   "homepage": "http://github.com/mohierf/mod-auth-ws-glpi",
   "author": "Frederic MOHIER",
   "description": "Authenticate Web UI users upon a Glpi Web Service login.",
@@ -17,7 +17,8 @@
     "broker",
     "webui",
     "glpi",
-    "auth"
+    "auth",
+    "authentication"
   ],
   "dependencies": {
     "shinken": ">=2.0"
